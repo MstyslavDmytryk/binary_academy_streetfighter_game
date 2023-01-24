@@ -1,0 +1,50 @@
+.modal-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.6);
+
+  background-image: url('https://wallpaperaccess.com/full/623.jpg');
+}
+
+.modal-root {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.692);
+  border-radius: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 300px;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.modal-header > div {
+  text-align: center;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.close-btn {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
